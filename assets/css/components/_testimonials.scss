@@ -1,0 +1,56 @@
+@import '../abstract/variables';
+
+.depoimentos {
+    background-color: $cor-paleta-4;
+    align-items: center;
+    font-family: $font-barlow;
+    color: $cor-paleta-1;
+    text-align: center;
+    padding-bottom: 20px;
+
+    h2 {
+        background-color: $cor-paleta-3;
+        padding: 20px 0;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: $tamanho-texto * 0.9;
+        margin: 0;
+    }
+
+    .carousel-inner {
+        border: 2px solid $cor-paleta-3;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 20px auto;
+        max-width: 80%;
+        height: 500px;
+    }
+
+    .depoimentos__texto {
+        font-size: $tamanho-texto * 0.6;
+        p{
+            margin: 0;
+        }
+        h3 {
+            font-weight: bold;
+            margin: 0;
+        }
+        .depoimentos__texto__relacao {
+            font-style: italic;
+        }
+    }
+    .depoimentos__botao {
+        background-color: $cor-paleta-2;
+        color: $cor-paleta-4;
+        border: 2px solid;
+        border-radius: 10px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .depoimentos__botao:hover {
+        background-color: $cor-paleta-4;
+        color: $cor-paleta-2;
+        display: inline-block;
+    }
+}

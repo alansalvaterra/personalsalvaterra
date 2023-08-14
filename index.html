@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Salvaterra</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top header">
+            <a href="#main">
+                <img class="header__imagem" src="./assets/img/banner01.png" alt="Texto escrito Personal Salvaterra">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+                aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="menu offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+                aria-labelledby="navbarOffcanvasLgLabel">
+                <div class="menu__header offcanvas-header">
+                    <img class="header__imagem" src="./assets/img/banner01.png" alt="Texto escrito Personal Salvaterra">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#main" data-bs-target="#navbarOffcanvasLg"
+                                data-bs-dismiss="offcanvas">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-bs-target="#navbarOffcanvasLg"
+                                data-bs-dismiss="offcanvas">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimentos" data-bs-target="#navbarOffcanvasLg"
+                                data-bs-dismiss="offcanvas">Depoimentos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>
+            Descubra o caminho para uma nova versão de você!
+        </h1>
+
+        <div id="carouselExampleCaptions" class="carrossel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carrossel1-removebg.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Treino Individualizado</h5>
+                        <p>Planos de treino adaptados exclusivamente para você</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrossel2-removebg.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Flexibilidade</h5>
+                        <p>Treino de acordo com a sua disponibilidade</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrossel3-removebg.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Saúde e qualidade de vida</h5>
+                        <p>Adote hábitos saudáveis para um corpo e mente equilibrados</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrossel4-removebg.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Hipertrofia</h5>
+                        <p>Treinos especializados para ganho de massa muscular</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carrossel5-removebg.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Consultoria on-line e presencial</h5>
+                        <p>Orientação personalizada onde quer que você esteja</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="contato">
+            <h2>
+                Agende sua primeira aula <br><span>sem custos</span><br> através dos contatos abaixo!
+            </h2>
+            <div class="contato__container__icones">
+                <a href="https://api.whatsapp.com/send?phone=+5521999999999&text=Ol%C3%A1%2C%20Carine%20Salvaterra%21%0A%0AVi%20o%20seu%20contato%20no%20site%20e%20estou%20interessado%20em%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os.%0AVamos%20conversar%3F%20%F0%9F%98%8E"
+                    target="_blank">
+                    <img class="contato__icones" src="./assets/img/whatsapp.png"
+                        alt="Imagem para Enviar Mensagem no WhatsApp">
+                </a><a href="https://www.instagram.com/carine_salvaterra/" target="_blank">
+                    <img class="contato__icones" src="./assets/img/instagram.png"
+                        alt="Imagem com Link para o Perfil do Instagram">
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <div id="about" class="about">
+        <img class="imagem__perfil" src="./assets/img/pefil-semfundo.png"
+            alt="Foto de perfil da personal trainer Carine Salvaterra">
+        <p>E aí, pessoal! Eu sou a Carine Salvaterra, sua parceira de treino entusiasmada em guiá-los em direção a um
+            estilo de vida mais saudável e vibrante. Com um sorriso contagiante no rosto e uma paixão inabalável pelo
+            fitness, estou aqui para transformar seus objetivos em realidade.
+        </p>
+        <p>Com mais de 10 anos de experiência no mundo do exercício, trago a expertise necessária para criar planos de
+            treino personalizados que se encaixam perfeitamente em sua jornada. Minha missão é inspirar e motivar,
+            incentivando vocês a superarem limites, suarem com determinação e conquistarem resultados notáveis, juntos.
+        </p>
+        <p>
+            Então, vamos embarcar nessa jornada rumo ao sucesso e bem-estar!
+        </p>
+        <br>
+    </div>
+
+    <div id="depoimentos" class="depoimentos">
+        <h2>Depoimentos</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="depoimentos__texto carousel-item active">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum laboriosam ex fugit
+                        tempora. Aperiam nihil exercitationem optio officia iure perspiciatis provident. Possimus iusto
+                        excepturi cumque sed, cupiditate ab ut?</p>
+                    <br>
+                    <h3 class="text-end ">Alan Salvaterra</h3>
+                    <p class="depoimentos__texto__relacao text-end">Irmão e Aluno</p>
+                </div>
+                <div class="depoimentos__texto carousel-item">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi alias facilis quaerat neque
+                        aliquam dicta necessitatibus fugit voluptate maiores distinctio ut repellendus magni sint
+                        laboriosam illum, vel reiciendis in omnis.</p>
+                    <br>
+                    <h3 class="text-end ">Fulano da Silva</h3>
+                    <p class="depoimentos__texto__relacao text-end">Coordenador de Academia</p>
+                </div>
+                <div class="depoimentos__texto carousel-item">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id et nulla, eos itaque ea esse quam in
+                        qui, dicta eveniet quia. Repudiandae veritatis odit dolores neque! Officia, amet! Pariatur,
+                        minima!</p>
+                    <br>
+                    <h3 class="text-end ">Fulano Souza</h3>
+                    <p class="depoimentos__texto__relacao text-end">Colega de Profissão</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <a href="#" class="depoimentos__botao">Veja todos os depoimentos</a>
+    </div>
+
+    <footer>
+        <p>Personal Salvaterra
+            <br>
+            - Criado por <a
+                href="https://api.whatsapp.com/send?phone=5521987577507&text=Ol%C3%A1%2C%20Alan%20Salvaterra%21%20Vi%20o%20site%20da%20Personal%20Salvaterra%20e%20fiquei%20interessado%20em%20seus%20servi%C3%A7os.%20Vamos%20Conversar%3F"
+                target="_blank">
+                Alan Salvaterra
+            </a>-
+        </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('a[href^="#"]').on('click', function (event) {
+                event.preventDefault();
+                const target = $(this.getAttribute('href'));
+                if (target.length) {
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+@import '../abstract/variables';
+
+.header {
+    background-color: $cor-paleta-3;
+    height: 70px;
+
+    .header__imagem {
+        height: 70px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .menu {
+        a {
+            font-size: $tamanho-texto * 0.6;
+        }
+
+        .menu__header {
+            background-color: $cor-paleta-3;
+            height: 70px;
+
+            .menu__header__titulo {
+                font-size: $tamanho-texto * 0.8;
+                color: $cor-paleta-1;
+            }
+
+            .btn-close {
+                position: absolute;
+                right: 20px;
+                font-size: 1.2rem;
+                color: $cor-paleta-1;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        font-size: 0.90rem;
+    }
+}
+

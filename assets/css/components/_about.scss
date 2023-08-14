@@ -1,0 +1,21 @@
+@import '../abstract/variables';
+
+.about {
+    text-align: center;
+    background-color: $cor-paleta-4;
+    font-family: $font-barlow;
+
+    .imagem__perfil {
+        margin: 20px 0px;
+    }
+
+    p {
+        color: $cor-paleta-1;
+        background-color: $cor-paleta-4;
+        font-size: $tamanho-texto * 0.6;
+        margin: 0 10% 10px 10%;
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
