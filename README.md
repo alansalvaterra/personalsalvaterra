@@ -18,3 +18,4 @@ E quanto a você? Adoraria saber sua opinião e quais sugestões você pode ofer
 ## Demais considerações:
 - Não domino edição de imagens. Utilizei apenas Paint, Power Point e https://www.remove.bg/.
 - Utilizei Bootstrap para fazer a Navbar com o menu e para os carrosséis. Não sei se é uma boa prática utilizá-lo.
+- O site não está responsivo, fica para a próxima versão. Telas maiores que smartphones entorta tudo.
