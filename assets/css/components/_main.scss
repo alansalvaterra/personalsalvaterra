@@ -9,17 +9,12 @@ main {
         padding: 0 30px 60px 30px;
     }
 
-    h1{
+    h1 {
         padding: 30px 30px;
         font-weight: 600;
         font-size: $tamanho-texto;
         font-family: $font-barlow;
-    }
-
-    h2 {
-        font-size: $tamanho-texto * 0.8;
-        margin: 20px 0;
-        font-family: $font-barlow;
+        color: $cor-paleta-1;
     }
 
     h5 {
@@ -42,18 +37,27 @@ main {
         color: $cor-paleta-4;
         padding: 30px 0 20px 0;
 
+        h2 {
+            font-size: $tamanho-texto * 0.9;
+            margin: 20px 0;
+            font-family: $font-barlow;
+            color: $cor-paleta-4;
+        }
+
         span {
             text-transform: uppercase;
             font-weight: bold;
             letter-spacing: 1.3px;
             font-size: $tamanho-texto * 1.2;
             font-family: $font-barlow;
+            color: $cor-paleta-4;
         }
 
-        .contato__container__icones{
+        .contato__container__icones {
             display: flex;
             justify-content: center;
         }
+
         .contato__icones {
             width: 80px;
             margin-right: 5px;

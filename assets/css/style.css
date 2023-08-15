@@ -53,11 +53,7 @@ main h1 {
   font-weight: 600;
   font-size: 2rem;
   font-family: "Barlow", sans-serif;
-}
-main h2 {
-  font-size: 1.6rem;
-  margin: 20px 0;
-  font-family: "Barlow", sans-serif;
+  color: #475f5a;
 }
 main h5 {
   color: #475f5a;
@@ -77,12 +73,19 @@ main .contato {
   color: #F8F6F4;
   padding: 30px 0 20px 0;
 }
+main .contato h2 {
+  font-size: 1.8rem;
+  margin: 20px 0;
+  font-family: "Barlow", sans-serif;
+  color: #F8F6F4;
+}
 main .contato span {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1.3px;
   font-size: 2.4rem;
   font-family: "Barlow", sans-serif;
+  color: #F8F6F4;
 }
 main .contato .contato__container__icones {
   display: flex;

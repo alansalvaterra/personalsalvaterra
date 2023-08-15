@@ -1,5 +1,5 @@
 <!-- Última Atualização: 14 de Agosto de 2023 -->
-# Site Personal Salvaterra
+# Site - Personal Salvaterra
 
 Olá, pessoas! Estou empolgado em compartilhar meu primeiro site, que construí com base nos conhecimentos adquiridos em alguns cursos da plataforma Alura.
 
@@ -15,3 +15,6 @@ E quanto a você? Adoraria saber sua opinião e quais sugestões você pode ofer
 * SASS
 * Bootstrap
 
+## Demais considerações:
+- Não domino edição de imagens. Utilizei apenas Paint, Power Point e https://www.remove.bg/.
+- Utilizei Bootstrap para fazer a Navbar com o menu e para os carrosséis. Não sei se é uma boa prática utilizá-lo.
