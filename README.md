@@ -1,0 +1,17 @@
+<!-- Última Atualização: 14 de Agosto de 2023 -->
+# Site Personal Salvaterra
+
+Olá, pessoas! Estou empolgado em compartilhar meu primeiro site, que construí com base nos conhecimentos adquiridos em alguns cursos da plataforma Alura.
+
+Estou realmente satisfeito com o resultado, mesmo sabendo que ainda há espaço para melhorias. Embora não seja uma produção totalmente profissional, estou feliz com o que alcancei em cerca de 2 meses de estudo.
+
+E quanto a você? Adoraria saber sua opinião e quais sugestões você pode oferecer para torná-lo ainda melhor! 
+
+
+## Tecnologias utilizadas:
+
+* HTML
+* CSS
+* SASS
+* Bootstrap
+

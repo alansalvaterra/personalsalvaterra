@@ -2,35 +2,39 @@
 
 main {
     background-color: $cor-paleta-4;
-    padding-top: 70px;
+    padding-top: 90px;
     text-align: center;
 
     .carrossel {
-        padding: 0 40px 60px 40px;
+        padding: 0 30px 60px 30px;
     }
 
     h1{
-        padding: 20px 30px;
-        text-transform: capitalize;
-        font-weight: 500;
+        padding: 30px 30px;
+        font-weight: 600;
+        font-size: $tamanho-texto;
+        font-family: $font-barlow;
     }
+
     h2 {
-        font-size: $tamanho-texto * .7;
+        font-size: $tamanho-texto * 0.8;
         margin: 20px 0;
+        font-family: $font-barlow;
     }
 
     h5 {
         color: $cor-paleta-1;
         font-weight: bold;
-        font-size: $tamanho-texto * .55;
+        font-size: $tamanho-texto * .7;
         text-shadow: 1px 1px 8px #fcfcfc;
         margin: 0;
     }
 
     p {
         color: $cor-paleta-1;
-        font-size: $tamanho-texto * 0.4;
+        font-size: $tamanho-texto * 0.55;
         margin: 0;
+        font-family: $font-barlow;
     }
 
     .contato {
@@ -42,7 +46,8 @@ main {
             text-transform: uppercase;
             font-weight: bold;
             letter-spacing: 1.3px;
-            font-size: $tamanho-texto * .9;
+            font-size: $tamanho-texto * 1.2;
+            font-family: $font-barlow;
         }
 
         .contato__container__icones{

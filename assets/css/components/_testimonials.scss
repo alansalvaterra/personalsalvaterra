@@ -10,10 +10,10 @@
 
     h2 {
         background-color: $cor-paleta-3;
-        padding: 20px 0;
+        padding: 30px 0;
         text-transform: uppercase;
         font-weight: 600;
-        font-size: $tamanho-texto * 0.9;
+        font-size: $tamanho-texto;
         margin: 0;
     }
 
@@ -23,11 +23,11 @@
         padding: 10px;
         margin: 20px auto;
         max-width: 80%;
-        height: 500px;
+        height: 550px;
     }
 
     .depoimentos__texto {
-        font-size: $tamanho-texto * 0.6;
+        font-size: $tamanho-texto * 0.7;
         p{
             margin: 0;
         }
@@ -40,6 +40,7 @@
         }
     }
     .depoimentos__botao {
+        font-size: $tamanho-texto * 0.7;
         background-color: $cor-paleta-2;
         color: $cor-paleta-4;
         border: 2px solid;
@@ -51,6 +52,5 @@
     .depoimentos__botao:hover {
         background-color: $cor-paleta-4;
         color: $cor-paleta-2;
-        display: inline-block;
     }
 }

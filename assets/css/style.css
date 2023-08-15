@@ -6,29 +6,29 @@ body {
 
 .header {
   background-color: #e4e2cd;
-  height: 70px;
+  height: 90px;
 }
 .header .header__imagem {
-  height: 70px;
+  height: 90px;
   position: absolute;
   top: 0;
   left: 0;
 }
 .header .menu a {
-  font-size: 1.2rem;
+  font-size: 2rem;
+  border-bottom: 3px double #2E8B57;
+}
+.header .menu .offcanvas-body {
+  background-color: #F8F6F4;
 }
 .header .menu .menu__header {
   background-color: #e4e2cd;
-  height: 70px;
-}
-.header .menu .menu__header .menu__header__titulo {
-  font-size: 1.6rem;
-  color: #475f5a;
+  height: 90px;
 }
 .header .menu .menu__header .btn-close {
   position: absolute;
   right: 20px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #475f5a;
   opacity: 0.3;
 }
@@ -37,37 +37,40 @@ body {
   top: 50%;
   transform: translateY(-50%);
   right: 10px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 main {
   background-color: #F8F6F4;
-  padding-top: 70px;
+  padding-top: 90px;
   text-align: center;
 }
 main .carrossel {
-  padding: 0 40px 60px 40px;
+  padding: 0 30px 60px 30px;
 }
 main h1 {
-  padding: 20px 30px;
-  text-transform: capitalize;
-  font-weight: 500;
+  padding: 30px 30px;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: "Barlow", sans-serif;
 }
 main h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin: 20px 0;
+  font-family: "Barlow", sans-serif;
 }
 main h5 {
   color: #475f5a;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   text-shadow: 1px 1px 8px #fcfcfc;
   margin: 0;
 }
 main p {
   color: #475f5a;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   margin: 0;
+  font-family: "Barlow", sans-serif;
 }
 main .contato {
   background-color: #2E8B57;
@@ -78,7 +81,8 @@ main .contato span {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1.3px;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
+  font-family: "Barlow", sans-serif;
 }
 main .contato .contato__container__icones {
   display: flex;
@@ -100,7 +104,7 @@ main .contato .contato__icones {
 .about p {
   color: #475f5a;
   background-color: #F8F6F4;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0 10% 10px 10%;
 }
 .about p:last-child {
@@ -117,10 +121,10 @@ main .contato .contato__icones {
 }
 .depoimentos h2 {
   background-color: #e4e2cd;
-  padding: 20px 0;
+  padding: 30px 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 0;
 }
 .depoimentos .carousel-inner {
@@ -129,10 +133,10 @@ main .contato .contato__icones {
   padding: 10px;
   margin: 20px auto;
   max-width: 80%;
-  height: 500px;
+  height: 550px;
 }
 .depoimentos .depoimentos__texto {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .depoimentos .depoimentos__texto p {
   margin: 0;
@@ -145,6 +149,7 @@ main .contato .contato__icones {
   font-style: italic;
 }
 .depoimentos .depoimentos__botao {
+  font-size: 1.4rem;
   background-color: #2E8B57;
   color: #F8F6F4;
   border: 2px solid;
@@ -155,7 +160,6 @@ main .contato .contato__icones {
 .depoimentos .depoimentos__botao:hover {
   background-color: #F8F6F4;
   color: #2E8B57;
-  display: inline-block;
 }
 
 footer {
@@ -163,7 +167,7 @@ footer {
   color: #475f5a;
   text-align: center;
   font-family: "Barlow", sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding: 20px;
   display: flex;
   align-items: center;
