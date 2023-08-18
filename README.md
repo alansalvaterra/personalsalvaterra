@@ -16,7 +16,7 @@ E quanto a você? Adoraria saber sua opinião e quais sugestões você pode ofer
 * Bootstrap
 
 
-## Bcacklog melhorias:
+## Backlog melhorias:
 * Tornar responsivo a telas maiores que smartphones
 * Refazer carrosséis e menu sem auxílio do Bootstrap (Estudando Javascript no momento)
 
