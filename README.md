@@ -10,13 +10,17 @@ E quanto a você? Adoraria saber sua opinião e quais sugestões você pode ofer
 
 
 ## Tecnologias utilizadas:
-
 * HTML
 * CSS
 * SASS
 * Bootstrap
 
+
+## Bcacklog melhorias:
+* Tornar responsivo a telas maiores que smartphones
+* Refazer carrosséis e menu sem auxílio do Bootstrap (Estudando Javascript no momento)
+
+
 ## Demais considerações:
 - Não domino edição de imagens. Utilizei apenas Paint, Power Point e https://www.remove.bg/.
 - Utilizei Bootstrap para fazer a Navbar com o menu e para os carrosséis. Não sei se é uma boa prática utilizá-lo.
-- O site não está responsivo, fica para a próxima versão. Telas maiores que smartphones entorta tudo.
