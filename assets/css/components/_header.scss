@@ -1,0 +1,15 @@
+@import '../abstract/variables';
+
+.header {
+    background-color: $cor-paleta-3;
+    height: 90px;
+
+    .header__imagem {
+        height: 90px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    
+}

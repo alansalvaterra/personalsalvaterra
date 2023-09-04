@@ -57,57 +57,79 @@
     </header>
 
     <main id="main">
-        <h1>
+        <h1 class="main__frase-impacto">
             Descubra o caminho para uma nova versão de você!
         </h1>
 
-        <div id="carouselExampleCaptions" class="carrossel carousel slide" data-bs-ride="carousel">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active carousel__botao-inf"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
+                    aria-label="Slide 2" class="carousel__botao-inf"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                    aria-label="Slide 3" class="carousel__botao-inf"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
+                    aria-label="Slide 4" class="carousel__botao-inf"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
+                    aria-label="Slide 5" class="carousel__botao-inf"></button>
             </div>
+
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/carrossel1-removebg.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Treino Individualizado</h5>
-                        <p>Planos de treino adaptados para você</p>
+                <div class="carousel-item active carrossel__borda">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./assets/img/carrossel1.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Treino Individualizado</h5>
+                                <p class="card-text">Planos de treino adaptados para você</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carrossel2-removebg.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Flexibilidade</h5>
-                        <p>Treino de acordo com a sua disponibilidade</p>
+                <div class="carousel-item carrossel__borda">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./assets/img/carrossel2.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Flexibilidade</h5>
+                                <p class="card-text">Treino de acordo com a sua disponibilidade</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carrossel3-removebg.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Saúde e qualidade de vida</h5>
-                        <p>Manter o equilíbrio entre corpo e mente</p>
+                <div class="carousel-item carrossel__borda">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./assets/img/carrossel3.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Qualidade de vida</h5>
+                                <p class="card-text">Equilibrio entre o corpo e a mente</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carrossel4-removebg.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Hipertrofia</h5>
-                        <p>Treinos focados em ganho de massa muscular</p>
+                <div class="carousel-item carrossel__borda">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./assets/img/carrossel4.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Hipertrofia</h5>
+                                <p class="card-text">Treinos focados em ganho de massa muscular</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carrossel5-removebg.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption">
-                        <h5>Consultoria on-line e presencial</h5>
-                        <p>Orientação personalizada a distância</p>
+                <div class="carousel-item carrossel__borda">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="./assets/img/carrossel5.svg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Treino Individualizado</h5>
+                                <p class="card-text">Planos de treino adaptados para você</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,12 +234,12 @@
         </p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
         </script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
             $('a[href^="#"]').on('click', function (event) {

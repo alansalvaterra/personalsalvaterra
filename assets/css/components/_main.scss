@@ -5,62 +5,84 @@ main {
     padding-top: 90px;
     text-align: center;
 
-    .carrossel {
-        padding: 0 30px 60px 30px;
-    }
+    .carousel {
+        padding: 5%;
+        margin-bottom: 30px;
 
-    h1 {
-        padding: 30px 30px;
-        font-weight: 600;
-        font-size: $tamanho-texto;
-        font-family: $font-barlow;
-        color: $cor-paleta-1;
-    }
-
-    h5 {
-        color: $cor-paleta-1;
-        font-weight: bold;
-        font-size: $tamanho-texto * .7;
-        text-shadow: 1px 1px 8px #fcfcfc;
-        margin: 0;
-    }
-
-    p {
-        color: $cor-paleta-1;
-        font-size: $tamanho-texto * 0.55;
-        margin: 0;
-        font-family: $font-barlow;
-    }
-
-    .contato {
-        background-color: $cor-paleta-2;
-        color: $cor-paleta-4;
-        padding: 30px 0 20px 0;
-
-        h2 {
-            font-size: $tamanho-texto * 0.9;
-            margin: 20px 0;
-            font-family: $font-barlow;
-            color: $cor-paleta-4;
+        .carousel__botao-inf {
+            // background-color: $cor-paleta-1;
+            display: none;
         }
 
-        span {
-            text-transform: uppercase;
-            font-weight: bold;
-            letter-spacing: 1.3px;
-            font-size: $tamanho-texto * 1.2;
-            font-family: $font-barlow;
-            color: $cor-paleta-4;
+        .carousel-item.active {
+            z-index: 1;
         }
 
-        .contato__container__icones {
-            display: flex;
-            justify-content: center;
+        .carousel-item {
+            z-index: 0;
+            width: 100%;
+            transition: transform 1.2s ease;
+            max-width: 100%;
         }
 
-        .contato__icones {
-            width: 80px;
-            margin-right: 5px;
+        .carrossel__borda {
+            // width: 100%;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+
+            .card-wrapper {
+                // width: 100%;
+                // position: relative;
+                padding-top: 100%;
+                // margin-bottom: 50px;
+                
+
+                .card {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 20px groove $cor-paleta-3;
+                    border-radius: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10% 20%;
+                    box-sizing: border-box;
+                    background-color: $cor-paleta-4;
+                    .card-body {
+                        padding-bottom: 10%;
+                    }
+                    
+                }
+            }
         }
     }
 }
+
+.main__frase-impacto {
+    margin: 20px 10% 0;
+    font-weight: 600;
+    font-size: $tamanho-texto;
+    font-family: $font-barlow;
+    color: $cor-paleta-1;
+}
+
+h5 {
+    color: $cor-paleta-1;
+    font-weight: bold;
+    font-size: $tamanho-texto * .7;
+    text-shadow: 1px 1px 8px #fcfcfc;
+    margin: 0;
+}
+
+p {
+    color: $cor-paleta-1;
+    font-size: $tamanho-texto * 0.55;
+    margin: 0;
+    font-family: $font-barlow;
+}
+
