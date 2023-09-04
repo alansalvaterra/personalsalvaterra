@@ -15,7 +15,7 @@ Estou realmente satisfeito com o resultado, mesmo sabendo que ainda há espaço 
 E quanto a você? Adoraria saber sua opinião e quais sugestões você pode oferecer para torná-lo ainda melhor! 
 
 <p align="center">
-  <img src="./extra/animacao.gif" alt=".gif do site">
+  <img src="./assets/img/animacao.gif" alt=".gif do site">
 </p>
 
 ## 💻 Tecnologias utilizadas:
