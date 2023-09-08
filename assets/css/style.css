@@ -41,7 +41,7 @@ main .swiper .swiper-slide .slides__box {
   color: #475f5a;
   border: 20px groove #e4e2cd;
   border-radius: 20%;
-  margin: 20px 10%;
+  margin: 20px 5%;
   padding: 10px;
   display: flex;
   flex-direction: column;
