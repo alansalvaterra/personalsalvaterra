@@ -2,55 +2,106 @@
 
 .depoimentos {
     background-color: $cor-paleta-4;
-    align-items: center;
     font-family: $font-barlow;
     color: $cor-paleta-1;
     text-align: center;
-    padding-bottom: 20px;
 
-    h2 {
+    .swiper-container {
+        width: 100%;
+    }
+
+    .depoimentos__titulo {
         background-color: $cor-paleta-3;
         padding: 30px 0;
         text-transform: uppercase;
         font-weight: 600;
         font-size: $tamanho-texto;
-        margin: 0;
     }
 
-    .carousel-inner {
+    .depoimentos__box {
         border: 2px solid $cor-paleta-3;
         border-radius: 25px;
         padding: 10px;
         margin: 20px auto;
         max-width: 80%;
-        height: 550px;
+        height: auto;
+        min-height: 500px;
+
+        .depoimentos__texto {
+            margin-bottom: 20px;
+            line-height: 1.5em;
+            font-weight: 400;
+            font-size: $tamanho-texto * .5;
+        }
+
+        .depoimentos__autor {
+            font-weight: bold;
+            text-align: right;
+            font-size: $tamanho-texto * .7;
+        }
+
+        .depoimentos__relacao {
+            font-style: italic;
+            text-align: right;
+            font-size: $tamanho-texto * .6;
+        }
     }
 
-    .depoimentos__texto {
-        font-size: $tamanho-texto * 0.7;
-        p{
-            margin: 0;
+    .depoimentos__box__botao {
+        margin: 40px 0;
+
+        .depoimentos__botao {
+            font-size: $tamanho-texto * 0.7;
+            background-color: $cor-paleta-2;
+            color: $cor-paleta-4;
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 10px;
+            text-decoration: none;
         }
-        h3 {
-            font-weight: bold;
-            margin: 0;
-        }
-        .depoimentos__texto__relacao {
-            font-style: italic;
+
+        .depoimentos__botao:hover {
+            background-color: $cor-paleta-4;
+            color: $cor-paleta-2;
         }
     }
-    .depoimentos__botao {
-        font-size: $tamanho-texto * 0.7;
-        background-color: $cor-paleta-2;
-        color: $cor-paleta-4;
-        border: 2px solid;
-        border-radius: 10px;
-        padding: 10px;
-        text-decoration: none;
+
+    .swiper-button-prev, .swiper-button-next {
+        color: $cor-paleta-3;
     }
+}
+
+@media screen and (min-width: 768px) {
+    .depoimentos {
+        .depoimentos__titulo {
+            padding: 40px 0;
+            font-size: $tamanho-texto * 1.2;
+        }
+
+        .depoimentos__box {
+            max-width: 70%;
+            height: auto;
+            min-height: 600px;
+
+            .depoimentos__texto {
+                font-size: $tamanho-texto * .7;
+            }
+
+            .depoimentos__autor {
+                font-size: $tamanho-texto * .9;
+            }
+
+            .depoimentos__relacao {
+                font-size: $tamanho-texto * .8;
+            }
+        }
+        .depoimentos__box__botao {
+            margin: 60px 0 80px;
     
-    .depoimentos__botao:hover {
-        background-color: $cor-paleta-4;
-        color: $cor-paleta-2;
+            .depoimentos__botao {
+                font-size: $tamanho-texto * .9;
+                padding: 15px 20px;
+            }
+        }
     }
 }

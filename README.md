@@ -18,17 +18,16 @@ E quanto a você? Adoraria saber sua opinião e quais sugestões você pode ofer
   <img src="./assets/img/animacao.gif" alt=".gif do site">
 </p>
 
-## 💻 Tecnologias utilizadas:
+## 💻 Tecnologias utilizadas
 
 * HTML
 * CSS
 * SASS
 * Bootstrap
+* SwiperJS
 
-## 🚧 Implementações futuras:
+## 🚧 Implementações futuras
 
 - [x] Corrigir imagens do carrossel distorcendo em telas maiores
-- [ ] Ajustar responsividade
+- [x] Ajustar responsividade
 - [ ] Refatorar todo código utilizando boas práticas
-
-

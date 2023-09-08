@@ -1,6 +1,6 @@
 @import '../abstract/variables';
 
-footer {
+.rodape {
     background-color: $cor-paleta-3;
     color: $cor-paleta-1;
     text-align: center;
@@ -8,15 +8,26 @@ footer {
     font-size: $tamanho-texto * 0.65;
     padding: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    p{
-        margin: 0;
+    flex-direction: column;
+
+    p {
+        margin: 5px 0;
     }
 
     a {
         text-decoration: none;
         color: $cor-paleta-2;
         font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        padding: 30px;
+
+        p {
+            font-size: $tamanho-texto * .8;
+        }
     }
 }

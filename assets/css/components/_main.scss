@@ -5,84 +5,95 @@ main {
     padding-top: 90px;
     text-align: center;
 
-    .carousel {
-        padding: 5%;
-        margin-bottom: 30px;
+    .main__h1 {
+        font-weight: bold;
+        font-size: $tamanho-texto;
+        font-family: $font-barlow;
+        margin: 20px 10%;
+        color: $cor-paleta-1;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+        line-height: $tamanho-texto * 1.2;
+    }
 
-        .carousel__botao-inf {
-            // background-color: $cor-paleta-1;
-            display: none;
-        }
+    .swiper {
+        max-width: 100%;
 
-        .carousel-item.active {
-            z-index: 1;
-        }
-
-        .carousel-item {
-            z-index: 0;
-            width: 100%;
-            transition: transform 1.2s ease;
+        .swiper-slide {
             max-width: 100%;
+            max-height: 100%;
+
+
+            .slides__box {
+                color: $cor-paleta-1;
+                border: 20px groove $cor-paleta-3;
+                border-radius: 20%;
+                margin: 20px 10%;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                max-width: 600px;
+
+                .slides__img {
+                    width: 80%;
+                    max-height: 300px;
+                }
+
+
+                .slides__texto {
+                    .slides__texto-h2 {
+                        font-size: $tamanho-texto * .7;
+                        font-weight: 600;
+                    }
+
+                    .slides__texto-p {
+                        font-size: $tamanho-texto * .6;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+        }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: $cor-paleta-3;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+
+        .main__h1 {
+            font-size: $tamanho-texto * 2;
+            margin: 40px 20%;
+            line-height: $tamanho-texto * 2;
         }
 
-        .carrossel__borda {
-            // width: 100%;
-            // display: flex;
-            // align-items: center;
-            // justify-content: center;
+        .slides__box {
+            color: $cor-paleta-1;
+            border: 20px groove $cor-paleta-3;
+            border-radius: 20%;
+            margin: 10px 5% 100px;
+            padding: 10px 10px;
+            height: 1vh;
+            min-height: 450px;
 
-            .card-wrapper {
-                // width: 100%;
-                // position: relative;
-                padding-top: 100%;
-                // margin-bottom: 50px;
-                
+            .slides__texto {
+                padding: 10px;
 
-                .card {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    border: 20px groove $cor-paleta-3;
-                    border-radius: 20%;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    padding: 10% 20%;
-                    box-sizing: border-box;
-                    background-color: $cor-paleta-4;
-                    .card-body {
-                        padding-bottom: 10%;
-                    }
-                    
+                .slides__texto-h2 {
+                    font-size: $tamanho-texto * 1.0;
+                }
+
+                .slides__texto-p {
+                    font-size: $tamanho-texto * .8;
+                    margin-bottom: 25px;
                 }
             }
         }
     }
 }
-
-.main__frase-impacto {
-    margin: 20px 10% 0;
-    font-weight: 600;
-    font-size: $tamanho-texto;
-    font-family: $font-barlow;
-    color: $cor-paleta-1;
-}
-
-h5 {
-    color: $cor-paleta-1;
-    font-weight: bold;
-    font-size: $tamanho-texto * .7;
-    text-shadow: 1px 1px 8px #fcfcfc;
-    margin: 0;
-}
-
-p {
-    color: $cor-paleta-1;
-    font-size: $tamanho-texto * 0.55;
-    margin: 0;
-    font-family: $font-barlow;
-}
-
