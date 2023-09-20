@@ -256,7 +256,9 @@ main .swiper-button-next {
   font-family: "Barlow", sans-serif;
   font-size: 2rem;
   color: #475f5a;
-  font-weight: 400;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 20px;
 }
 
 .navbar-toggler {
